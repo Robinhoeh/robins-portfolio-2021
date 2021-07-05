@@ -1,5 +1,5 @@
 <template>
-  <div>Hello world</div>
+  <div>Testing dev branch</div>
 </template>
 
 <script>
