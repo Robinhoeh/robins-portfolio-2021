@@ -25,7 +25,7 @@ export default {
   ],
 
   tailwindcss: {
-    cssPath: '~/assets/tailwind.css',
+    cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config.js',
     exposeConfig: false,
     config: {}

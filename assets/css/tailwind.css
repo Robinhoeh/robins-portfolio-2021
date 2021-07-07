@@ -1,0 +1,25 @@
+/* ./assets/css/tailwind.css */
+@tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-xl;
+  }
+  h2 {
+    @apply text-lg;
+  }
+  h3 {
+    @apply text-md;
+  }
+  h4 {
+    @apply text-sm;
+  }
+  p {
+    @apply text-reg;
+  }
+  span {
+    @apply text-span;
+  }
+}
+@tailwind components;
+@tailwind utilities;
