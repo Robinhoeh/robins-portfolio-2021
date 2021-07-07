@@ -1,5 +1,8 @@
 <template>
-  <div>Testing dev branch</div>
+  <div class="">
+    Testing dev branch
+    <footer><CarbonBadge></CarbonBadge></footer>
+  </div>
 </template>
 
 <script>

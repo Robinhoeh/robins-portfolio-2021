@@ -21,10 +21,19 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    `~/assets/css/main.scss`
   ],
+
+  tailwindcss: {
+    cssPath: '~/assets/tailwind.css',
+    configPath: 'tailwind.config.js',
+    exposeConfig: false,
+    config: {}
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '@/plugins/carbonbadge.js' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -35,7 +44,7 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
